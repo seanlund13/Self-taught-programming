@@ -1,0 +1,175 @@
+<!doctype html>
+
+<html>
+
+    <head>
+
+        <title id="T1"> Webpage Name </title>
+
+    </head>
+
+    <body> <!Comments-->
+        <script> document.getElementById("T1").innerHTML="New Title"</script>
+        <h1> Header Name </h1>
+        
+        <p>  Paragraph </p>
+        First &nbsp&nbsp&nbsp&nbsp&nbsp second <!&nbsp = space>
+    
+        <br> 
+        <br>
+        <br> 
+        
+        <h2> Header (smaller text) </h2>
+        
+        <p>  Paragraph 2 </p>
+        
+        <ul> <!unordered list-->
+            <li> Item 1 </li>
+            <li> Item 2 </li>
+            <li> Item 3 </li>
+            <li> Item 4 </li>
+        </ul>
+        
+        <ol> <!ordered list-->
+            <li> Item 1 </li>
+            <li> Item 2 </li>
+            <li> Item 3 </li>
+            <li> Item 4 </li>
+        </ol>
+
+        <table>
+            <tr> <!column element tag-->
+                <th> Column 1 </th> <! column tag-->
+                <th> Column 2 </th>
+                <th> Column 3 </th>
+            </tr>  
+            <tr>
+                <td> Data 1</td>
+                <td> Data 2</td>
+                <td> Data 3</td>
+            </tr>
+            <tr>
+                <td> Data 11</td>
+                <td> Data 22</td>
+                <td> Data 33</td>
+            </tr>
+        </table>
+        
+        <p> Click this link:
+            <a href="https://www.w3schools.com/tags/default.asp"> HTML reference page </a> <!Notice the beginning a anchor does not get closed until after the url ending quote-->
+        </p>
+        
+        <ul> <! # at beginning of quotes indicates the link is on this same webpage-->
+            <li> <a href="#Second section"> Section 2 </a> </li>
+            <li> <a href="#Third section"> Section 3 </a> </li>
+        </ul>
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+       
+        
+        <p>
+            <a name="Second section"> This is the second section. </a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+       
+            <a name="Third section"> This is the third section. </a>
+        </p>
+        
+        <h1>Image header </h1>
+        
+        <p> <img src="Sample image.jpg" width="300" height="200"> </p> <!200 pixels, original photo gets sent to user who opens the webpage... more efficient to make big changes in resolution to the .JPG file-->
+        
+        <form action=""method="">
+            <input type="text" name="">
+            <input type="text" name="">
+            <br>
+            <br>
+            <br>
+            <label for="firstname">First name:</label>
+            <input type="text" id="firstname" name="" size="50"> <!50 characters-->
+            <br>
+            <br>
+            <label for="lastname">Last name:</label>
+            <input type="text" id="lastname" name="" size="50">
+        </form>
+        
+        <br>
+        <br>
+        Comments:
+        <br>
+        <textarea rows="10" cols="40"></textarea>
+        <br>
+        <input type="submit" value="Submit button">
+        
+        <br>
+        <br>
+        
+        Yes:
+        <input type="radio" name="yesorno" value=""> <br>
+        No:
+        <input type="radio" name="yesorno" value=""> <br>
+        <br>
+        <br>
+        <!If name="yesorno" is not the same for both buttons the buttons can be selected simultaneously.-->
+        
+        <input type="checkbox" name="" checked="checked"> Option 1 <br>
+        <input type="checkbox" name=""> Option 2 <br>
+        <input type="checkbox" name=""> Option 3 <br>
+        <input type="checkbox" name=""> Option 4 <br>
+        <br>
+        <br>
+        <br>
+        
+        <input type="number" min="0" max="50">
+        <br>
+        <br>
+        
+        <form action="" method="">
+            <select>
+                <option value="Option 1">Option 1</option>
+                <option value="Option 2">Option 2</option>
+                <option value="Option 3">Option 3</option>
+            
+            </select>
+        <br>
+        <br>
+        <form>
+            <fieldset>
+                <legend>
+                Choose date
+                </legend>
+                Date: <input type="date" name="day">
+                Number of days: <input type="number" name="numdays" min="1" max="10">
+        
+                <br>
+                <br>
+                Name: <input type="text">
+            </fieldset>
+        </form>    
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

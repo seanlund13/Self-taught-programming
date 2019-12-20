@@ -1,0 +1,14 @@
+Display Possibilities:
+    innerHTML
+        - accessed by: document.getElementById("Id").innerHTML
+    document.write()
+        - should only be used for testing
+        - using document.write() after an HTML doc is loaded will DELETE ALL EXISTING HTML!
+    window.alert()
+    console.log()
+        - use for debugging purposes
+        
+
+    
+    
+    
